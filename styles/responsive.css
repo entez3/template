@@ -2,10 +2,14 @@
   .align {
     right: 0;
   }
+  /* .medical-w{
+    max-width: 100px;
+  } */
+
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   img {
-    max-height: unset;
+    max-height: 93px;
   }
 }
 
@@ -13,35 +17,37 @@
   .holder {
     flex-direction: column;
   }
+  img{
+    max-height: unset;
+  }
 }
 
-
 @media screen and (min-width: 992px) {
-    .finance {
-        width: 80% !important;
-        right: 10.4% !important;
-    }
+
+  img{
+    max-height: 156px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-  .filter {
-    width: 88% !important;
-    left: 19% !important;
-  }
-  .meta{
-    width: 100% !important;
-  }
 
-  .finance {
-    width: 66% !important;
-    right: 17.7% !important;
-  }
 
-  .w-190>img{
+  .w-190 > img {
     width: 90vh;
   }
 
-  .medical{
+  .medical {
     width: 90vh !important;
+  }
+  .meta {
+    width: 100% !important;
+  }
+
+  .meta-w{
+    max-width: 189vh !important;
+  }
+
+  .medical-w>img{
+    max-width: 92%;
   }
 }

@@ -2,20 +2,26 @@
   position: absolute;
   top: 0;
   right: 0;
-  left: 0;
+  left: 0 ;
   bottom: 0;
-  height: 99%;
+  height: 100%;
   width: 100%;
-  opacity: 0.8;
+  opacity: 1;
   transition: 0.5s ease;
   border-radius: 8px;
   display: flex;
-  justify-content: center;
+  justify-content:baseline;
   align-items: center;
   color: #fff;
 }
 
-.filter:hover {
+.filter>p{
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+}
+
+/* .filter:hover {
   opacity: 0;
   cursor: pointer;
 }
@@ -55,4 +61,4 @@
 
 .food {
   background-color: #c55230;
-}
+} */
