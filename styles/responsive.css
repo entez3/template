@@ -1,0 +1,47 @@
+@media screen and (max-width: 992px) {
+  .shop {
+    right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  img {
+    max-height: unset;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .holder {
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+    .finance {
+        width: 80% !important;
+        right: 10.4% !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+  .filter {
+    width: 88% !important;
+    left: 19% !important;
+  }
+  .meta{
+    width: 100% !important;
+  }
+
+  .finance {
+    width: 65% !important;
+    right: 17.7% !important;
+  }
+
+  .w-190>img{
+    width: 90vh;
+  }
+
+  .medical{
+    width: 90vh !important;
+  }
+}

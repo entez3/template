@@ -1,0 +1,55 @@
+.filter{
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 99%;
+    width: 100%;
+    opacity: .8;
+    transition: .5s ease;
+    background-color: #008CBA;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.filter:hover{
+    opacity: 0;
+}
+
+.meta{
+    background-color: #0022ba;
+}
+
+.finance{
+    background-color: #9e1b1b;
+}
+
+.music{
+    background-color: #2e8f11;
+}
+
+.sport{
+    color: #000;;
+    background-color: #ebcb1b;
+}
+
+.clothes{
+    background-color: #611508;
+}
+
+.medical{
+    background-color: #400094;
+}
+
+.learn{
+    background-color: #b32bac;
+}
+
+.food{
+    background-color:#c55230
+}
+
