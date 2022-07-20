@@ -3,7 +3,6 @@ html {
   direction: rtl;
   margin: 40px 0;
 }
-
 *,
 *::before,
 *::after {
@@ -12,21 +11,16 @@ html {
   font:14px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
-
-.shop {
+.align {
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
   justify-content: space-around;
   position: relative;
-  right: 2rem;
+  left: 2rem;
  
 }
-
 img {
   max-width: 100%;
   max-height: 261px;
 }
-
-
-/* =========== start headear =========== */

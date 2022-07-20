@@ -1,13 +1,10 @@
 /* Retrieved from the bootstrap */
-
 .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 0 50px;
 }
-
-
 /* Small devices (landscape phones, 576px and up) */
 
 @media only screen and (min-width: 576px) {
@@ -16,7 +13,6 @@
         padding: 0;
     }
 }
-
 
 /* Medium devices (tablets, 768px and up) */
 
@@ -27,7 +23,6 @@
     }
 }
 
-
 /* Large devices (desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
@@ -35,7 +30,6 @@
         max-width: 992px;
     }
 }
-
 
 /* Extra large devices (large desktops, 1200px and up) */
 
@@ -49,7 +43,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-
 
 /* Based on 12 columns */
 
