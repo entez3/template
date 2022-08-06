@@ -1,64 +1,46 @@
 .filter {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0 ;
-  bottom: 0;
-  height: 100%;
   width: 100%;
-  opacity: 1;
-  transition: 0.5s ease;
-  border-radius: 8px;
-  display: flex;
-  justify-content:baseline;
-  align-items: center;
-  color: #fff;
+  height: 100%;
+  border-radius: 10px;
+  transition: all 0.4s;
 }
 
-.filter>p{
-  justify-content: center;
-  text-align: center;
-  background-color: black;
-}
-
-/* .filter:hover {
+.filter:hover {
   opacity: 0;
-  cursor: pointer;
 }
 
-.meta {
-  background-color: #0022ba;
+.filter1 {
+  background: linear-gradient(to bottom, #ffae0099, #6b300099);
 }
 
-.finance {
-  background-color: #9e1b1b;
+.filter2 {
+  background: linear-gradient(to bottom, #003cff99, #00196b99);
 }
 
-.music {
-  background-color: #2e8f11;
+.filter3 {
+  background: linear-gradient(to bottom, #ffe60099, #6b5b0099);
 }
 
-.shop {
-  background-color: #008cba;
+.filter4 {
+  background: linear-gradient(to bottom, #48ff0099, #096b0099);
 }
 
-.sport {
-  color: #000;
-  background-color: #ebcb1b;
+.filter5 {
+  background: linear-gradient(to bottom, #008cff99, #17006b99);
 }
 
-.clothes {
-  background-color: #611508;
+.filter6 {
+  background: linear-gradient(to bottom, #ffa60099, #6b390099);
 }
 
-.medical {
-  background-color: #400094;
+.filter7 {
+  background: linear-gradient(to bottom, #b700ff99, #00196b99);
 }
 
-.learn {
-  background-color: #b32bac;
+.filter8 {
+  background: linear-gradient(to bottom, #ffe60099, #6b000099);
 }
 
-.food {
-  background-color: #c55230;
-} */
+.filter9 {
+  background: linear-gradient(to bottom, #ff880099, #646b0099);
+}

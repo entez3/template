@@ -5,11 +5,10 @@ body {
 *,
 *::before,
 *::after {
-    position: relative;
+  position: relative;
   box-sizing: inherit;
 
-  font:14px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+  font: 14px "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 a {
@@ -17,13 +16,13 @@ a {
   color: inherit;
 }
 
-.grid-box{
+.grid-box {
   display: grid;
-  grid-template-columns: repeat(4,1fr) ;
-  grid-template-rows: repeat(3,200px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 200px);
   gap: 5px;
 }
-.grid-item{
+.grid-item {
   border-radius: 10px;
   color: aliceblue;
   background-color: rgb(32, 1, 1);
@@ -33,6 +32,6 @@ a {
   grid-column: 2/5;
 }
 
-.item7{
+.item7 {
   grid-column: 1/3;
 }

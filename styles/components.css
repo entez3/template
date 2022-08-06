@@ -1,45 +1,48 @@
-.item1{
-    background: no-repeat center  url(../images/finance.png);
-    background-size: cover;
+.grid-item:hover {
+  cursor: pointer;
 }
 
-.item2{
-    background:  linear-gradient(to bottom, hsla(226, 100%, 50%, 0.6) ,hsla(226, 100%, 21%, 0.6)), url(../images/meta.jpg) no-repeat center ;
-    background-size: cover;
+.item1 {
+  background: url(../images/finance.png) no-repeat center;
+  background-size: cover;
 }
 
-.item3{
-    background: no-repeat center url(../images/learn.png);
-    background-size: cover;
+.item2 {
+  background: url(../images/meta.jpg) no-repeat center;
+  background-size: cover;
 }
 
-.item4{
-    background: no-repeat center url(../images/sport.png);
-    background-size: cover;
+.item3 {
+  background: url(../images/learn.png) no-repeat center;
+  background-size: cover;
 }
 
-.item5{
-    background: no-repeat center url(../images/shop.png);
-    background-size: cover;
+.item4 {
+  background: url(../images/sport.png) no-repeat center;
+  background-size: cover;
 }
 
-.item6{
-    background: no-repeat center url(../images/music.png);
-    background-size: cover;
+.item5 {
+  background: url(../images/shop.png) no-repeat center;
+  background-size: cover;
 }
 
-.item7{
-    background: no-repeat center url(../images/tecno.png);
-    background-size: cover;
+.item6 {
+  background: url(../images/music.png) no-repeat center;
+  background-size: cover;
 }
 
-.item8{
-    background: no-repeat center url(../images/clothes.png);
-    background-size: cover;
+.item7 {
+  background: url(../images/tecno.png) no-repeat center;
+  background-size: cover;
 }
 
-.item9{
-    background: no-repeat center url(../images/food.JPG);
-    background-size: cover;
+.item8 {
+  background: url(../images/clothes.png) no-repeat center;
+  background-size: cover;
 }
 
+.item9 {
+  background: url(../images/food.JPG) no-repeat center;
+  background-size: cover;
+}
