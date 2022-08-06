@@ -1,7 +1,6 @@
-html {
+body {
   box-sizing: border-box;
-  direction: rtl;
-  margin: 40px 0;
+  margin: 10px 30px;
 }
 *,
 *::before,
@@ -13,19 +12,27 @@ html {
   
 }
 
-
-
 a {
   text-decoration: none;
   color: inherit;
 }
 
-.border>img{
-  border-radius: 9px;
-  width: 250vh;
+.grid-box{
+  display: grid;
+  grid-template-columns: repeat(4,1fr) ;
+  grid-template-rows: repeat(3,200px);
+  gap: 5px;
 }
-img {
-  max-width: 100%;
-  max-height: 188px;
+.grid-item{
+  border-radius: 10px;
+  color: aliceblue;
+  background-color: rgb(32, 1, 1);
 }
 
+.item2 {
+  grid-column: 2/5;
+}
+
+.item7{
+  grid-column: 1/3;
+}
